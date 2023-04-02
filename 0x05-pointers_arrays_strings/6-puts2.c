@@ -1,10 +1,8 @@
 #include "main.h"
-/*
- * puts2 - printing strings.
- * main - function that prints every other character of a string
- * _putchar: print special chara
+/**
+ * puts2- function that prints every other character of a string
  * @str: input
- * Return: Always 0
+ * Return: n
  */
 void puts2(char *str)
 {
