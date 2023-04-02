@@ -6,7 +6,7 @@
  * @str: input
  * Return: Always 0
  */
-void puts2(char *str);
+void puts2(char *str)
 {
 	int l = 0;
 	int j = 0;
@@ -21,9 +21,10 @@ void puts2(char *str);
 	j = l - 1;
 	for (o = 0; o <= j; o++)
 	{
-	if (o % 2 == 0)
+		if (o % 2 == 0)
+	{
+		_putchar(str[o]);
 	}
-	_putchar(str[o]);
-
+	}
 	_putchar('\n');
 }
