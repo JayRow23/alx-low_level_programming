@@ -20,9 +20,8 @@ unsigned int _strspn(char *s, char *accept)
 				bytes++;
 				break;
 			}
-
 			else if (accept[jet + 1] == '\0')
-					return (bytes);
+				return (bytes);
 		}
 
 		s++;
