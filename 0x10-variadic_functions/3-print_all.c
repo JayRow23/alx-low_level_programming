@@ -40,7 +40,6 @@ void print_all(const char * const format, ...)
 			sep = ", ";
 			j++;
 		}
-		va_end(list);
 		printf("\n");
 	}
 }
