@@ -44,7 +44,7 @@ int main(void)
 	add_nodeint(&head, 1024);
 	print_listint_safe(head);
 	node = find_listint_loop(head);
-	if (node != NULL
+	if (node != NULL)
 	{
 	printf("Loop starts at [%p] %d\n", (void *)node, node->n);
 	}
